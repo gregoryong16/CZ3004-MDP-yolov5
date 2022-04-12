@@ -1,0 +1,1 @@
+python detect.py --source http://192.168.1.1:8081/stream.mjpg --weights last.pt --conf-thres 0.6

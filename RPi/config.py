@@ -1,0 +1,8 @@
+LOCALE = 'UTF-8'
+
+#Android BT connection settings
+
+RFCOMM_CHANNEL = 1
+RPI_MAC_ADDR = 'b8:27:eb:5a:34:dc'
+UUID = '48f2491c-350e-4c1c-b181-7e4a591cc311'
+ANDROID_SOCKET_BUFFER_SIZE = 512

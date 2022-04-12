@@ -1,0 +1,24 @@
+# YOLOv5 🚀 by Ultralytics, GPL-3.0 license
+# COCO128 dataset https://www.kaggle.com/ultralytics/coco128 (first 128 images from COCO train2017) by Ultralytics
+# Example usage: python train.py --data coco128.yaml
+# parent
+# ├── yolov5
+# └── datasets
+#     └── coco128  ← downloads here
+
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: images/ # dataset root dir
+train: train/images  # train images (relative to 'path') 128 images
+val: valid/images  # val images (relative to 'path') 128 images
+test: test/images # test images (optional)
+
+# Classes
+nc: 31  # number of classes
+names: ['Number 1, Image id=11', 'Number 2, Image id=12', 'Number 3, Image id=13', 'Number 4, Image id=14', 'Number 5, Image id=15', 'Number 6, Image id=16', 'Number 7, Image id=17', 'Number 8, Image id=18', 'Number 9, Image id=19', 'Alphabet A, Image id=20', 'Alphabet B, Image id=21', 'Alphabet C, Image id=22', 'Alphabet D, Image id=23', 'Alphabet E, Image id=24', 'Alphabet F, Image id=25', 'Alphabet G, Image id=26', 'Alphabet H, Image id=27', 'Alphabet S, Image id=28', 'Alphabet T, Image id=29', 'Alphabet U, Image id=30', 'Alphabet V, Image id=31', 'Alphabet W, Image id=32', 'Alphabet X, Image id=33', 'Alphabet Y, Image id=34', 'Alphabet Z, Image id=35', 'Up Arrow, Image id=36', 'Down Arrow, Image id=37', 'Right Arrow, Image id=38', 'Left Arrow, Image id=39', 'Circle, Image id=40','bullseye']
+
+
+# Download script/URL (optional)
+download: https://ultralytics.com/assets/coco128.zip
+
+
